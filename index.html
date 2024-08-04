@@ -348,11 +348,7 @@
     </div>
     <div class="button-container">
     <button class="start-button" onclick="openModal()">Начать</button>
-    <button class="return-button" onclick="location.href='https://tolianius.github.io/all-games.github.io/'">Вернуться</button>
-    <div class="business-name">
-       <img src="tg.svg" alt="Telegram Icon" style="vertical-align: middle; margin-right: 10px; width: 60px; height: 60px;">
-        DEVILS
-    </div>
+    <button class="return-button" onclick="location.href='https://nickyylable.github.io/lasthere/'">Главное Меню</button>
 </div>
     <div id="modal">
         <div class="modal-content">
@@ -423,7 +419,7 @@
         }
 
        function displayRandomMessage() {
-            const messages = ["Правый череп", "По Середине", "Левый череп"];
+            const messages = ["", "", ""];
             const skullIds = ["skull3", "skull2", "skull1"];
             const randomIndex = Math.floor(Math.random() * messages.length);
             document.getElementById('message').textContent = messages[randomIndex];
